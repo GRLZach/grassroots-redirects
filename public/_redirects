@@ -1,8 +1,8 @@
 # Redirects for altrua.grassrootslabs.com
-/enrollment                     https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
-/members                        https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
+/enrollment https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
+/members https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
 /altrua-enrollment-labs-thank-you https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
-/*                              https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
+/* https://www.grassrootslabs.com/altrua-health-share-members 301! Host=altrua.grassrootslabs.com
 
 # Redirect root of redirects.grassrootslabs.com to main site
-/                                https://www.grassrootslabs.com 301! Host=redirects.grassrootslabs.com
+/ https://www.grassrootslabs.com 301! Host=redirects.grassrootslabs.com
