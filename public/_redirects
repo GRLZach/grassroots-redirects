@@ -1,11 +1,19 @@
 # Altrua redirects
-/members     https://www.grassrootslabs.com/altrua-health-share-members  301! Host=altrua.grassrootslabs.com
-/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301! Host=altrua.grassrootslabs.com
-/            https://www.grassrootslabs.com/altrua-health-share-members  302! Host=altrua.grassrootslabs.com
-/*           https://www.grassrootslabs.com/altrua-health-share-members  302! Host=altrua.grassrootslabs.com
+/members     https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/            https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
+/*           https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
 
 # Medi-Share redirects
-/members     https://www.grassrootslabs.com/medi-share-members           301! Host=medi-share.grassrootslabs.com
-/hpp         https://www.grassrootslabs.com/medi-share-health-partnership 301! Host=medi-share.grassrootslabs.com
-/            https://www.grassrootslabs.com/medi-share-members           302! Host=medi-share.grassrootslabs.com
-/*           https://www.grassrootslabs.com/medi-share-members           302! Host=medi-share.grassrootslabs.com
+/members     https://www.grassrootslabs.com/medi-share-members           301
+  Host=medi-share.grassrootslabs.com
+/hpp         https://www.grassrootslabs.com/medi-share-health-partnership 301
+  Host=medi-share.grassrootslabs.com
+/            https://www.grassrootslabs.com/medi-share-members           302
+  Host=medi-share.grassrootslabs.com
+/*           https://www.grassrootslabs.com/medi-share-members           302
+  Host=medi-share.grassrootslabs.com
