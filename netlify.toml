@@ -1,7 +1,40 @@
 [build]
   publish = "public"
 
+# Fallback for unmatched routes (e.g., index.html)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Redirects for altrua.grassrootslabs.com
+[[redirects]]
+  from = "/enrollment"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 301
+  conditions = { Host = "altrua.grassrootslabs.com" }
+
+[[redirects]]
+  from = "/members"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 301
+  conditions = { Host = "altrua.grassrootslabs.com" }
+
+[[redirects]]
+  from = "/altrua-enrollment-labs-thank-you"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 301
+  conditions = { Host = "altrua.grassrootslabs.com" }
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 301
+  conditions = { Host = "altrua.grassrootslabs.com" }
+
+# Root redirect for redirects.grassrootslabs.com
+[[redirects]]
+  from = "/"
+  to = "https://www.grassrootslabs.com"
+  status = 301
+  conditions = { Host = "redirects.grassrootslabs.com" }
