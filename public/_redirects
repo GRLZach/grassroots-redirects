@@ -17,3 +17,11 @@
   Host=medi-share.grassrootslabs.com
 /*           https://www.grassrootslabs.com/medi-share-members           302
   Host=medi-share.grassrootslabs.com
+
+# Provider Office redirects
+/sq2        https://www.grassrootslabs.com/premier-health-members        301
+  Host=providers.grassrootslabs.com
+/birthingwaymidwifery https://www.grassrootslabs.com/birthing-way-midwifery   301
+  Host=providers.grassrootslabs.com
+/seacoastwholehealth https://www.grassrootslabs.com/seacoast-members      301
+  Host=providers.grassrootslabs.com
