@@ -25,3 +25,5 @@
   Host=providers.grassrootslabs.com
 /seacoastwholehealth https://www.grassrootslabs.com/seacoast-members      301
   Host=providers.grassrootslabs.com
+/tnawc https://www.grassrootslabs.com/tnawc      301
+  Host=providers.grassrootslabs.com
