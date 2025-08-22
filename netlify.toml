@@ -37,7 +37,7 @@
   status = 302
   conditions = { Host = "medi-share.grassrootslabs.com" }
 
-# Generic fallback (MUST be at bottom!)
+# Final fallback for all others — must be last
 [[redirects]]
   from = "/*"
   to = "/index.html"
