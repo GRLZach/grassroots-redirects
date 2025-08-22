@@ -1,20 +1,44 @@
-# Altrua root
+# Altrua
 [[redirects]]
-from = "/"
-to = "https://www.grassrootslabs.com/altrua-health-share-members"
-status = 302
-conditions = { Host = "altrua.grassrootslabs.com" }
+  from = "/"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 302
+  conditions = { Host = "altrua.grassrootslabs.com" }
 
-# Medi-Share root
 [[redirects]]
-from = "/"
-to = "https://www.grassrootslabs.com/medi-share-members"
-status = 302
-conditions = { Host = "medi-share.grassrootslabs.com" }
+  from = "/*"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 302
+  conditions = { Host = "altrua.grassrootslabs.com" }
 
-# Providers root
+# Providers
 [[redirects]]
-from = "/"
-to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
-status = 302
-conditions = { Host = "providers.grassrootslabs.com" }
+  from = "/"
+  to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
+  status = 302
+  conditions = { Host = "providers.grassrootslabs.com" }
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
+  status = 302
+  conditions = { Host = "providers.grassrootslabs.com" }
+
+# Medi-Share
+[[redirects]]
+  from = "/"
+  to = "https://www.grassrootslabs.com/medi-share-members"
+  status = 302
+  conditions = { Host = "medi-share.grassrootslabs.com" }
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.grassrootslabs.com/medi-share-members"
+  status = 302
+  conditions = { Host = "medi-share.grassrootslabs.com" }
+
+# Generic fallback (MUST be at bottom!)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
