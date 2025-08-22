@@ -1,19 +1,33 @@
-# Altrua redirects
-/members     https://www.grassrootslabs.com/altrua-health-share-members  301  Host=altrua.grassrootslabs.com
-/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301  Host=altrua.grassrootslabs.com
-/            https://www.grassrootslabs.com/altrua-health-share-members  302  Host=altrua.grassrootslabs.com
-/*           https://www.grassrootslabs.com/altrua-health-share-members  302  Host=altrua.grassrootslabs.com
+# Provider Office redirects (top, specific first)
+/sq2        https://www.grassrootslabs.com/sq2-members        301
+  Host=providers.grassrootslabs.com
+/birthingwaymidwifery https://www.grassrootslabs.com/birthing-way-midwifery   301
+  Host=providers.grassrootslabs.com
+/seacoastwholehealth https://www.grassrootslabs.com/seacoast-members      301
+  Host=providers.grassrootslabs.com
+/tnawc https://www.grassrootslabs.com/tnawc      301
+  Host=providers.grassrootslabs.com
+/            https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302
+  Host=providers.grassrootslabs.com
+/*           https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302
+  Host=providers.grassrootslabs.com
 
 # Medi-Share redirects
-/members     https://www.grassrootslabs.com/medi-share-members           301  Host=medi-share.grassrootslabs.com
-/hpp         https://www.grassrootslabs.com/medi-share-health-partnership 301  Host=medi-share.grassrootslabs.com
-/            https://www.grassrootslabs.com/medi-share-members           302  Host=medi-share.grassrootslabs.com
-/*           https://www.grassrootslabs.com/medi-share-members           302  Host=medi-share.grassrootslabs.com
+/members     https://www.grassrootslabs.com/medi-share-members           301
+  Host=medi-share.grassrootslabs.com
+/hpp         https://www.grassrootslabs.com/medi-share-health-partnership 301
+  Host=medi-share.grassrootslabs.com
+/            https://www.grassrootslabs.com/medi-share-members           302
+  Host=medi-share.grassrootslabs.com
+/*           https://www.grassrootslabs.com/medi-share-members           302
+  Host=medi-share.grassrootslabs.com
 
-# Provider Office redirects
-/sq2         https://www.grassrootslabs.com/sq2-members                  301  Host=providers.grassrootslabs.com
-/birthingwaymidwifery https://www.grassrootslabs.com/birthing-way-midwifery 301  Host=providers.grassrootslabs.com
-/seacoastwholehealth https://www.grassrootslabs.com/seacoast-members     301  Host=providers.grassrootslabs.com
-/tnawc       https://www.grassrootslabs.com/tnawc                        301  Host=providers.grassrootslabs.com
-/            https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302  Host=providers.grassrootslabs.com
-/*           https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302  Host=providers.grassrootslabs.com
+# Altrua redirects
+/members     https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/            https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
+/*           https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
