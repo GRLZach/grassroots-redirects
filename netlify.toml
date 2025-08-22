@@ -1,40 +1,20 @@
-[build]
-  publish = "public"
-
-# Fallback for unmatched routes (e.g., index.html)
+# Altrua root
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/"
+to = "https://www.grassrootslabs.com/altrua-health-share-members"
+status = 302
+conditions = { Host = "altrua.grassrootslabs.com" }
 
-# Redirects for altrua.grassrootslabs.com
+# Medi-Share root
 [[redirects]]
-  from = "/enrollment"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 301
-  conditions = { Host = "altrua.grassrootslabs.com" }
+from = "/"
+to = "https://www.grassrootslabs.com/medi-share-members"
+status = 302
+conditions = { Host = "medi-share.grassrootslabs.com" }
 
+# Providers root
 [[redirects]]
-  from = "/members"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 301
-  conditions = { Host = "altrua.grassrootslabs.com" }
-
-[[redirects]]
-  from = "/altrua-enrollment-labs-thank-you"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 301
-  conditions = { Host = "altrua.grassrootslabs.com" }
-
-[[redirects]]
-  from = "/*"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 301
-  conditions = { Host = "altrua.grassrootslabs.com" }
-
-# Root redirect for redirects.grassrootslabs.com
-[[redirects]]
-  from = "/"
-  to = "https://www.grassrootslabs.com"
-  status = 301
-  conditions = { Host = "redirects.grassrootslabs.com" }
+from = "/"
+to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
+status = 302
+conditions = { Host = "providers.grassrootslabs.com" }
