@@ -27,3 +27,7 @@
   Host=providers.grassrootslabs.com
 /tnawc https://www.grassrootslabs.com/tnawc      301
   Host=providers.grassrootslabs.com
+/            https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302
+  Host=altrua.grassrootslabs.com
+/*           https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups  302
+  Host=altrua.grassrootslabs.com
