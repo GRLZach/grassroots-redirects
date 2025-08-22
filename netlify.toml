@@ -1,5 +1,11 @@
 # Altrua
 [[redirects]]
+  from = "/"
+  to = "https://www.grassrootslabs.com/altrua-health-share-members"
+  status = 302
+  conditions = { Host = "altrua.grassrootslabs.com" }
+
+[[redirects]]
   from = "/*"
   to = "https://www.grassrootslabs.com/altrua-health-share-members"
   status = 302
@@ -7,12 +13,24 @@
 
 # Providers
 [[redirects]]
+  from = "/"
+  to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
+  status = 302
+  conditions = { Host = "providers.grassrootslabs.com" }
+
+[[redirects]]
   from = "/*"
   to = "https://www.grassrootslabs.com/Physician%20Offices%20&%20Provider%20Groups"
   status = 302
   conditions = { Host = "providers.grassrootslabs.com" }
 
 # Medi-Share
+[[redirects]]
+  from = "/"
+  to = "https://www.grassrootslabs.com/medi-share-members"
+  status = 302
+  conditions = { Host = "medi-share.grassrootslabs.com" }
+
 [[redirects]]
   from = "/*"
   to = "https://www.grassrootslabs.com/medi-share-members"
