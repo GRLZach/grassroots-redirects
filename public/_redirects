@@ -1,3 +1,13 @@
+# Altrua redirects
+/members     https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301
+  Host=altrua.grassrootslabs.com
+/            https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
+/*           https://www.grassrootslabs.com/altrua-health-share-members  302
+  Host=altrua.grassrootslabs.com
+
 # Provider Office redirects (top, specific first)
 /sq2        https://www.grassrootslabs.com/sq2-members        301
   Host=providers.grassrootslabs.com
@@ -22,12 +32,4 @@
 /*           https://www.grassrootslabs.com/medi-share-members           302
   Host=medi-share.grassrootslabs.com
 
-# Altrua redirects
-/members     https://www.grassrootslabs.com/altrua-health-share-members  301
-  Host=altrua.grassrootslabs.com
-/enrollment  https://www.grassrootslabs.com/altrua-health-share-members  301
-  Host=altrua.grassrootslabs.com
-/            https://www.grassrootslabs.com/altrua-health-share-members  302
-  Host=altrua.grassrootslabs.com
-/*           https://www.grassrootslabs.com/altrua-health-share-members  302
-  Host=altrua.grassrootslabs.com
+
