@@ -1,5 +1,5 @@
 # Altrua redirects
-/members     https://www.grassrootslabs.com/altrua-health-share-members  301
+/members     https://www.grassrootslabs.com/ahs-members  301
   Host=altrua.grassrootslabs.com
 /enrollment  https://www.grassrootslabs.com/ahs-enrollment  301
   Host=altrua.grassrootslabs.com
