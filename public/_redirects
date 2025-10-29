@@ -5,9 +5,9 @@
   Host=altrua.grassrootslabs.com
 /providers  https://www.grassrootslabs.com/altrua-providers  301
   Host=altrua.grassrootslabs.com
-/            https://www.grassrootslabs.com/altrua-health-share-members  302
+/            https://www.grassrootslabs.com/ahs-members  302
   Host=altrua.grassrootslabs.com
-/*           https://www.grassrootslabs.com/altrua-health-share-members  302
+/*           https://www.grassrootslabs.com/ahs-members  302
   Host=altrua.grassrootslabs.com
 
 # Provider Office redirects (top, specific first)
