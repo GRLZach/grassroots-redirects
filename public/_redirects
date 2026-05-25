@@ -1,3 +1,7 @@
+# Impact Health redirects
+https://impacthealthsharing.grassrootslabs.com/  https://www.grassrootslabs.com/impact-health-members  302!
+https://impacthealthsharing.grassrootslabs.com/* https://www.grassrootslabs.com/impact-health-members  302!
+
 # Altrua redirects
 https://altrua.grassrootslabs.com/members    https://www.grassrootslabs.com/ahs-members       301!
 https://altrua.grassrootslabs.com/enrollment https://www.grassrootslabs.com/ahs-enrollment    301!
