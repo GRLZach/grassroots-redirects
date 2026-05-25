@@ -1,17 +1,4 @@
-# Medi-Share
-[[redirects]]
-  from = "/"
-  to = "https://www.grassrootslabs.com/medi-share-members"
-  status = 302
-  conditions = { Host = "medi-share.grassrootslabs.com" }
-
-[[redirects]]
-  from = "/*"
-  to = "https://www.grassrootslabs.com/medi-share-members"
-  status = 302
-  conditions = { Host = "medi-share.grassrootslabs.com" }
-
-# Final fallback for all others — must be last
+# Final fallback for all others - must be last
 [[redirects]]
   from = "/*"
   to = "/index.html"

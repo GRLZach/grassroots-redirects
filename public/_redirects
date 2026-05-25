@@ -18,13 +18,8 @@ https://providers.grassrootslabs.com/                     https://www.grassroots
 https://providers.grassrootslabs.com/*                    https://www.grassrootslabs.com/providers                    302!
 
 # Medi-Share redirects
-/members     https://www.grassrootslabs.com/medi-share-members           301
-  Host=medi-share.grassrootslabs.com
-/hpp         https://www.grassrootslabs.com/medi-share-health-partnership 301
-  Host=medi-share.grassrootslabs.com
-/            https://www.grassrootslabs.com/medi-share-members           302
-  Host=medi-share.grassrootslabs.com
-/*           https://www.grassrootslabs.com/medi-share-members           302
-  Host=medi-share.grassrootslabs.com
-
+https://medi-share.grassrootslabs.com/members https://www.grassrootslabs.com/medi-share-members             301!
+https://medi-share.grassrootslabs.com/hpp     https://www.grassrootslabs.com/medi-share-health-partnership  301!
+https://medi-share.grassrootslabs.com/        https://www.grassrootslabs.com/medi-share-members             302!
+https://medi-share.grassrootslabs.com/*       https://www.grassrootslabs.com/medi-share-members             302!
 
