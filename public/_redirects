@@ -1,3 +1,10 @@
+# Altrua redirects
+https://altrua.grassrootslabs.com/members    https://www.grassrootslabs.com/ahs-members       301!
+https://altrua.grassrootslabs.com/enrollment https://www.grassrootslabs.com/ahs-enrollment    301!
+https://altrua.grassrootslabs.com/providers  https://www.grassrootslabs.com/altrua-providers  301!
+https://altrua.grassrootslabs.com/           https://www.grassrootslabs.com/ahs-members       302!
+https://altrua.grassrootslabs.com/*          https://www.grassrootslabs.com/ahs-members       302!
+
 # Provider Office redirects
 https://providers.grassrootslabs.com/sq2                  https://www.grassrootslabs.com/sq2-members                  301!
 https://providers.grassrootslabs.com/birthingwaymidwifery https://www.grassrootslabs.com/birthing-way-midwifery       301!
@@ -5,18 +12,6 @@ https://providers.grassrootslabs.com/seacoastwholehealth  https://www.grassroots
 https://providers.grassrootslabs.com/tnawc                https://www.grassrootslabs.com/tnawc                        301!
 https://providers.grassrootslabs.com/                     https://www.grassrootslabs.com/providers                    302!
 https://providers.grassrootslabs.com/*                    https://www.grassrootslabs.com/providers                    302!
-
-# Altrua redirects
-/members     https://www.grassrootslabs.com/ahs-members  301
-  Host=altrua.grassrootslabs.com
-/enrollment  https://www.grassrootslabs.com/ahs-enrollment  301
-  Host=altrua.grassrootslabs.com
-/providers  https://www.grassrootslabs.com/altrua-providers  301
-  Host=altrua.grassrootslabs.com
-/            https://www.grassrootslabs.com/ahs-members  302
-  Host=altrua.grassrootslabs.com
-/*           https://www.grassrootslabs.com/ahs-members  302
-  Host=altrua.grassrootslabs.com
 
 # Medi-Share redirects
 /members     https://www.grassrootslabs.com/medi-share-members           301

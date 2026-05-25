@@ -1,16 +1,3 @@
-# Altrua
-[[redirects]]
-  from = "/"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 302
-  conditions = { Host = "altrua.grassrootslabs.com" }
-
-[[redirects]]
-  from = "/*"
-  to = "https://www.grassrootslabs.com/altrua-health-share-members"
-  status = 302
-  conditions = { Host = "altrua.grassrootslabs.com" }
-
 # Medi-Share
 [[redirects]]
   from = "/"

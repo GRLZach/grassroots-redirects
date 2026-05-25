@@ -1,33 +1,28 @@
 const checks = [
   {
-    url: "https://providers.grassrootslabs.com/sq2",
+    url: "https://altrua.grassrootslabs.com/members",
     status: 301,
-    location: "https://www.grassrootslabs.com/sq2-members",
+    location: "https://www.grassrootslabs.com/ahs-members",
   },
   {
-    url: "https://providers.grassrootslabs.com/birthingwaymidwifery",
+    url: "https://altrua.grassrootslabs.com/enrollment",
     status: 301,
-    location: "https://www.grassrootslabs.com/birthing-way-midwifery",
+    location: "https://www.grassrootslabs.com/ahs-enrollment",
   },
   {
-    url: "https://providers.grassrootslabs.com/seacoastwholehealth",
+    url: "https://altrua.grassrootslabs.com/providers",
     status: 301,
-    location: "https://www.grassrootslabs.com/seacoast-members",
+    location: "https://www.grassrootslabs.com/altrua-providers",
   },
   {
-    url: "https://providers.grassrootslabs.com/tnawc",
-    status: 301,
-    location: "https://www.grassrootslabs.com/tnawc",
-  },
-  {
-    url: "https://providers.grassrootslabs.com/",
+    url: "https://altrua.grassrootslabs.com/",
     status: 302,
-    location: "https://www.grassrootslabs.com/providers",
+    location: "https://www.grassrootslabs.com/ahs-members",
   },
   {
-    url: "https://providers.grassrootslabs.com/unknown-provider-path",
+    url: "https://altrua.grassrootslabs.com/unknown-altrua-path",
     status: 302,
-    location: "https://www.grassrootslabs.com/providers",
+    location: "https://www.grassrootslabs.com/ahs-members",
   },
 ];
 
